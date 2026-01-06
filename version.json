@@ -1,0 +1,13 @@
+{
+  "version": "1.1.0",
+  "filename": "firmware_1.1.0.bin",
+  "description": "Poprawka: LED 2 i LED 3 prawidłowo przywracane po demo. Konfiguracja liczby LEDów przez aplikację mobilną i menu ESP32.",
+  "release_date": "2026-01-06",
+  "changes": [
+    "✅ Naprawa: LED 2/3 włączają się po zakończeniu demo (jeśli są w czasie alarmu)",
+    "✅ Nowa funkcja: Konfiguracja liczby LEDów (10-300) przez aplikację mobilną",
+    "✅ Nowa funkcja: Menu ESP32 - opcja 'Konfiguruj LED' (UP/DOWN ±1, SELECT zapisz)",
+    "✅ Nowa funkcja: Test LEDów - sekwencyjne zapalanie do weryfikacji konfiguracji",
+    "✅ Poprawa: Debug logging dla LED 2/3 (co 60 sekund)"
+  ]
+}
